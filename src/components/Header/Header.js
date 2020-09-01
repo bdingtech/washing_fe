@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Logo from '../../assets/logo.png'
+import './Header.less'
 
 class Header extends Component {
     render(){
