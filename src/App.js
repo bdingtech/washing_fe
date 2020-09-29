@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './App.css'
+import 'antd-mobile/dist/antd-mobile.css'; 
 import Header from './components/Header/Header'
 import List from './components/List/List'
 
@@ -7,7 +9,7 @@ import List from './components/List/List'
 class App extends Component {
   render(){
    return (
-     <div>
+     <div className="App">
        <Header/>
        <List/>
      </div>
